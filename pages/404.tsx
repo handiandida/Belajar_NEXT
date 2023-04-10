@@ -1,7 +1,10 @@
 import React from "react";
 
-const Custom404 = () => {
-  return <div>testing</div>;
-};
-
-export default Custom404;
+export default function Custom404() {
+  return (
+    <div>
+      <p>ooopppsss</p>
+      <p>ini testing</p>
+    </div>
+  );
+}
